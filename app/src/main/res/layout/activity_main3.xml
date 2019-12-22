@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/bellerose"
+        android:onClick="OnClick"
+        android:text="@string/back"
+        android:textColor="@color/Red"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="90dp"
+        android:autofillHints="" tools:targetApi="o"
+        />
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="90dp"
+        android:autofillHints="" tools:targetApi="o"/>
+    <TextView
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:text="@string/quantity"
+        android:fontFamily="@font/bellerose"
+        android:layout_below="@id/details"
+        android:textSize="30sp"
+        android:textColor="@color/Blue"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/details"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/bellerose"
+        android:text="@string/unit"
+        android:textColor="@color/Blue"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/details"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/bellerose"
+        android:text="@string/description"
+        android:textColor="@color/Blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/details"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/bellerose"
+        android:text="@string/rate"
+        android:textColor="@color/Blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="84dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/details"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/bellerose"
+        android:text="@string/amount"
+        android:textColor="@color/Blue"
+        android:textSize="30sp" />
+
+</RelativeLayout>
